@@ -1,6 +1,6 @@
 h1{
   font-size: 100px;
-  color: yellow;
+  color: orange;
   font-family: Sans-serif;
 }
 ul {
@@ -23,11 +23,20 @@ li a {
     text-decoration: none;
 }
 img{
-  opacity: 0.5;
+  opacity: 0.9;
+  margin: auto;
+    width: 50%;
+    border: 30px;
+    padding: 20px;
+    float:right
 }
-
-div {
-    background: url(img_flwr.gif);
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
+p{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 80px;
+}
+.quotes{
+  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  font-size: 30px
 }
