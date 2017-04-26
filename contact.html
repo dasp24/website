@@ -1,19 +1,61 @@
 <html>
 <head>
-  <link rel="stylesheet" href="main.css">
+<meta charset="utf-8">
+<title>About page</title>
+<link rel="stylesheet" href="main.css">
+</head>
 <body>
-  <h1>Contact</h1>
-  <h1>Because why not?</h1>
-<ul class = 'navbar'>
-  <li class = 'list'><a href="file:///Users/danparkes/Northcoder/website/variousMovies.html">Various Movies</a></li>
-  <li class = 'list'><a href="file:///Users/danparkes/Northcoder/website/contact.html">Contact</a></li>
-  <li style="float:right"><a class="active" href="file:///Users/danparkes/Northcoder/website/index.html">Main Page</a></li>
-</ul>
-<button class = "btn">Eat</button>
-<button class = "btn">Pray</button>
-<div class="col-xs-4">
-  <a href="https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwixsKfV97zTAhXhJcAKHYgzCsMQFgg3MAM&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBatman&usg=AFQjCNG-kG9H2r4xDibT0OrkCn6yKBzt9A&sig2=buigd9FPd5TNxHquhw_n3A" target="_"><input
-type="button" value='Batman'/></a>
-    </div>
-</body>
+ <header>
+   <div class="nav" id="one">
+     <a href="file:///Users/danparkes/Northcoder/website/index.html"><image class="icon"src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100"></a>
+       <p class="text">Home</p>
+   </div>
+
+   <div class="nav" id="two">
+     <a href="file:///Users/danparkes/Northcoder/website/variousMovies.html"><image class="icon"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnfwZvjIKa-acIEO0c8jiw5kiv3wktjitDoRItWdYAy6uWh_v5Q"></a>
+       <p class="text">Movies</p>
+   </div>
+
+   <div class="nav" id="three">
+     <image class="icon"src="https://image.freepik.com/free-icon/question-mark_318-52837.jpg">
+       <p class="text">About</p>
+   </div>
+
+   <div class="nav" id="four">
+     <a href="file:///Users/danparkes/Northcoder/website/contact.html"><image class="icon"src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100"></a>
+       <p class="text">contact</p>
+   </div>
+   <div class="nav" id="five">
+     <image class="icon"src="https://cdn2.iconfinder.com/data/icons/perfect-flat-icons-2/512/Error_warning_alert_attention_remove_dialog.png">
+       <p class="text">Dare to Press</p>
+   </div>
+   <div class="nav" id="six">
+     <a href="file:///Users/danparkes/Northcoder/website/pictures.html"><image class="icon"src="http://www.freeiconspng.com/uploads/batman-icon-png-4.png"></a>
+       <p class="text">NUNUNUNU</p>
+   </div>
+
+ </header>
+ <div class="container">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">England</option>
+      <option value="canada">Gotham</option>
+      <option value="usa">Somewhere I've never heard of</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </html>

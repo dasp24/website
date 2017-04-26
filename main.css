@@ -58,3 +58,136 @@ iframe{
   height:450;
   align:right;
 }
+
+.green{
+  color:green;
+}
+* { margin: 0; font-family: verdana; }
+html { background:#37474F; }
+header{
+  margin:0 auto;
+  width:1200px;
+  height:230px;
+  background-color: red;
+  cursor: pointer;
+}
+.nav{
+  width:200px;
+  height:230px;
+  float:left;
+}
+#one{
+  background-color: #b20000;
+}
+#two{
+  background-color: #000099;
+}
+#three{
+  background-color: #999900;
+}
+#four{
+  background-color: #007f00;
+}
+#five{
+  background-color: #cc5490;
+}
+#six{
+  background-color: black;
+}
+.icon{
+  display:block;
+  margin:50px auto;
+  background-color: rgba(255,255,255,.15);
+  width:40px;
+  padding:20px;
+  -WebKit-border-radius:50%;
+  -WebKit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+  -WebKit-transition:box-shadow .4s;
+}
+.text{
+  text-align:center;
+  color:white;
+  font-size:1.2em;
+  padding-top:10px;
+  opacity:.6;
+  -WebKit-transition:padding-top .4s
+}
+.nav:hover{
+  height:250px;
+  -WebKit-transition:height .4s
+}
+.nav:hover .text{
+  padding-top:30px;
+  opacity: 1;
+}
+#one:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(252,150,57);
+}
+#two:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(238,172,80);
+}
+#three:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(93,198,236);
+}
+#four:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(24,118,179);
+}
+#five:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(24,49,63);
+}
+#six:hover .icon{
+  -WebKit-box-shadow:0px 0px 0px 0px rgb(14,26,36);
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#batman{
+  position: absolute;
+    left: 250px;
+    top: 350px;
+    z-index: -1;
+}
+.wrapper {
+    text-align: center;
+}
+
+button{
+  margin:auto;
+  display:block;
+}
+
+
+button{
+  padding:16px 32px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color:#fff;
+  background: #587286;
+  border:0;
+  font-weight:100;
+}
+button:hover{
+  background: #3B5C76;
+}
