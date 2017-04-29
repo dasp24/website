@@ -1,8 +1,9 @@
 h1{
-  font-size: 90px;
-  color: orange;
+  color: white;
   font-family: Sans-serif;
-  align:center;
+  position: absolute;
+  left: 14cm;
+  top:5.4cm;
 }
 
 
@@ -38,11 +39,20 @@ p{
   font-size: 30px
 }
 .movies{
+  position: absolute;
+  top:9.2cm;
   list-style-type:square;
   color: white;
   font-size: 30px
   border: 3px;
 }
+
+.video{
+  position:absolute;
+  right:1cm;
+  top:9.2cm;
+}
+
 a{
   color:green;
 }
@@ -51,11 +61,6 @@ iframe{
   width:800;
   height:450;
   align:right;
-}
-h1{
-  position: absolute;
-  left: 10cm;
-  top:0;
 }
 
 .green{
@@ -69,7 +74,7 @@ html {
   
 header{
   margin:0 auto;
-  width:800px;
+  width:600px;
   height:200px;
   background-color: red;
   cursor: pointer;
@@ -87,17 +92,9 @@ header{
   background-color: #000099;
 }
 #three{
-  background-color: #999900;
+  background-color: #e6e600;
 }
-#four{
-  background-color: #007f00;
-}
-#five{
-  background-color: #cc5490;
-}
-#six{
-  background-color: black;
-}
+
 .icon{
   display:block;
   margin:50px auto;
@@ -133,15 +130,7 @@ header{
 #three:hover .icon{
   -WebKit-box-shadow:0px 0px 0px 0px rgb(93,198,236);
 }
-#four:hover .icon{
-  -WebKit-box-shadow:0px 0px 0px 0px rgb(24,118,179);
-}
-#five:hover .icon{
-  -WebKit-box-shadow:0px 0px 0px 0px rgb(24,49,63);
-}
-#six:hover .icon{
-  -WebKit-box-shadow:0px 0px 0px 0px rgb(14,26,36);
-}
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
@@ -194,6 +183,6 @@ button:hover{
 #superhero{
   padding-top: 10px;
   position: absolute;
-  top:7cm;
+  top:6cm;
   right:0;
 }
