@@ -4,13 +4,7 @@ h1{
   font-family: Sans-serif;
   align:center;
 }
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+
 
 .list {
     float: left;
@@ -44,7 +38,7 @@ p{
   font-size: 30px
 }
 .movies{
-  list-style-type:circle;
+  list-style-type:square;
   color: white;
   font-size: 30px
   border: 3px;
@@ -58,22 +52,32 @@ iframe{
   height:450;
   align:right;
 }
+h1{
+  position: absolute;
+  left: 10cm;
+  top:0;
+}
 
 .green{
   color:green;
 }
 * { margin: 0; font-family: verdana; }
-html { background:#37474F; }
+
+html { 
+  background:#37474F; 
+  }
+  
 header{
   margin:0 auto;
-  width:1200px;
-  height:230px;
+  width:800px;
+  height:200px;
   background-color: red;
   cursor: pointer;
+  
 }
 .nav{
   width:200px;
-  height:230px;
+  height:200px;
   float:left;
 }
 #one{
@@ -100,7 +104,7 @@ header{
   background-color: rgba(255,255,255,.15);
   width:40px;
   padding:20px;
-  -WebKit-border-radius:50%;
+  -WebKit-border-radius:60%;
   -WebKit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
   -WebKit-transition:box-shadow .4s;
 }
@@ -160,6 +164,7 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  
 }
 
 #batman{
@@ -173,21 +178,22 @@ input[type=submit] {
 }
 
 button{
-  margin:auto;
-  display:block;
-}
-
-
-button{
-  padding:16px 32px;
+  padding: 20px;
   font-family:helvetica;
-  font-size:16px;
-  font-weight:100;
+  font-size:16px; 
   color:#fff;
   background: #587286;
-  border:0;
-  font-weight:100;
+  border:10cm;
+  position:absolute;
+  top:12cm;
+  left: 5cm;
 }
 button:hover{
   background: #3B5C76;
+}
+#superhero{
+  padding-top: 10px;
+  position: absolute;
+  top:7cm;
+  right:0;
 }

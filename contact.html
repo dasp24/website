@@ -1,61 +1,66 @@
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>About page</title>
-<link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <title>About page</title>
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
- <header>
-   <div class="nav" id="one">
-     <a href="file:///Users/danparkes/Northcoder/website/index.html"><image class="icon"src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100"></a>
-       <p class="text">Home</p>
-   </div>
+  <header>
+       <div class="nav" id="one">
+    <a href="file:///Users/danparkes/Northcoder/website/index.html">
+      <image class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100">
+    </a>
+    <p class="text">
+      Home
+    </p>
+  </div>
 
-   <div class="nav" id="two">
-     <a href="file:///Users/danparkes/Northcoder/website/variousMovies.html"><image class="icon"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnfwZvjIKa-acIEO0c8jiw5kiv3wktjitDoRItWdYAy6uWh_v5Q"></a>
-       <p class="text">Movies</p>
-   </div>
+  <div class="nav" id="two">
+    <a href="file:///Users/danparkes/Northcoder/website/variousMovies.html">
+      <image class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnfwZvjIKa-acIEO0c8jiw5kiv3wktjitDoRItWdYAy6uWh_v5Q">
+    </a>
+    <p class="text">
+      Movies
+    </p>
+  </div>
 
-   <div class="nav" id="three">
-     <image class="icon"src="https://image.freepik.com/free-icon/question-mark_318-52837.jpg">
-       <p class="text">About</p>
-   </div>
+  <div class="nav" id="four">
+    <a href="file:///Users/danparkes/Northcoder/website/contact.html">
+      <image class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100">
+    </a>
+    <p class="text">contact</p>
+  </div>
+  <div class="nav" id="six">
+    <a href="file:///Users/danparkes/Northcoder/website/pictures.html">
+      <image class="icon" src="http://www.freeiconspng.com/uploads/batman-icon-png-4.png">
+    </a>
+    <p class="text">NUNUNUNU</p>
+  </div>
+  </header>
+  <div class="container">
+    <form action="/action_page.php">
 
-   <div class="nav" id="four">
-     <a href="file:///Users/danparkes/Northcoder/website/contact.html"><image class="icon"src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100"></a>
-       <p class="text">contact</p>
-   </div>
-   <div class="nav" id="five">
-     <image class="icon"src="https://cdn2.iconfinder.com/data/icons/perfect-flat-icons-2/512/Error_warning_alert_attention_remove_dialog.png">
-       <p class="text">Dare to Press</p>
-   </div>
-   <div class="nav" id="six">
-     <a href="file:///Users/danparkes/Northcoder/website/pictures.html"><image class="icon"src="http://www.freeiconspng.com/uploads/batman-icon-png-4.png"></a>
-       <p class="text">NUNUNUNU</p>
-   </div>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
- </header>
- <div class="container">
-  <form action="/action_page.php">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
+      <label for="country">Country</label>
+      <select id="country" name="country">
       <option value="australia">England</option>
       <option value="canada">Gotham</option>
       <option value="usa">Somewhere I've never heard of</option>
     </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+      <input type="submit" value="Submit">
 
-  </form>
-</div>
+    </form>
+  </div>
+
 </html>
