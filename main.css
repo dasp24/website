@@ -86,7 +86,7 @@ header{
   float:left;
 }
 #one{
-  background-color: #b20000;
+  background-color: #cc0000;
 }
 #two{
   background-color: #000099;
@@ -107,11 +107,11 @@ header{
 }
 .text{
   text-align:center;
-  color:white;
+  color:#00cc00;
   font-size:1.2em;
   padding-top:10px;
-  opacity:.6;
-  -WebKit-transition:padding-top .4s
+  
+  -WebKit-transition:padding-top .3s
 }
 .nav:hover{
   height:250px;
